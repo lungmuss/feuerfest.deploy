@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/lungmuss/feuerfest.deploy/compare/v1.0.0...v1.0.1) (2023-06-09)
+
+
+### Bug Fixes
+
+* make workflow reusable again ([eb6316a](https://github.com/lungmuss/feuerfest.deploy/commit/eb6316aa07fe5e7e15586a922d4866c621cb062f))
+
 # 1.0.0 (2023-06-09)
 
 
