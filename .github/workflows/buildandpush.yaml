@@ -78,7 +78,7 @@ jobs:
                 ],
                 ["@semantic-release/exec", {
                     "prepareCmd": "echo ${ process.env.GITHUB_TOKEN } | docker login ghcr.io --username github@lungmuss.com --password-stdin",
-                    "publishCmd": "docker build Postgres/.
+                    "publishCmd": "docker build .
                                    --label org.opencontainers.image.source=https://github.com/lungmuss/${ process.env.CI_REPOSITORY_NAME}
                                    --tag ghcr.io/lungmuss/${ process.env.CI_REPOSITORY_NAME }:${nextRelease.version} --file Dockerfile &&
                                    docker push ghcr.io/lungmuss/${ process.env.CI_REPOSITORY_NAME }:${nextRelease.version} &&
