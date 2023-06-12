@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/lungmuss/feuerfest.deploy/compare/v1.0.1...v1.0.2) (2023-06-12)
+
+
+### Bug Fixes
+
+* install Ansible requirements ([31fe909](https://github.com/lungmuss/feuerfest.deploy/commit/31fe909e89925265182c5cca4415f9545b3c9f37))
+
 ## [1.0.1](https://github.com/lungmuss/feuerfest.deploy/compare/v1.0.0...v1.0.1) (2023-06-09)
 
 
