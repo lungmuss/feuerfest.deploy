@@ -29,6 +29,12 @@ RUN apt-get update && \
     unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip && \
     mv terraform /usr/local/bin/ && \
     rm terraform_${TERRAFORM_VERSION}_linux_amd64.zip
+# Not using requirements.txt for clarity
+RUN ansible-galaxy collection install kubernetes.core && \
+      ansible-galaxy collection install ansible.posix && \
+      ansible-galaxy collection install community.general && \
+      ansible-galaxy collection install community.sops && \
+      ansible-galaxy collection install community.postgresql
 
 # Install SOPS
 RUN curl -L -o sops.deb https://github.com/mozilla/sops/releases/download/v${SOPS_VERSION}/sops_${SOPS_VERSION}_amd64.deb && \
