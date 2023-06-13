@@ -20,11 +20,14 @@ ENV ANSIBLE_VERSION ${ANSIBLE_VERSION}
 ENV SOPS_VERSION ${SOPS_VERSION}
 ENV AGE_VERSION ${AGE_VERSION}
 
+# Install dependencies
+RUN apt-get update && \
+    apt-get install -y openssh-client
+
 # Upgrade pip and install Ansible
 RUN pip3 install --upgrade pip && pip3 install ansible-core==${ANSIBLE_VERSION} 
 # Install Terraform
-RUN apt-get update && \
-    apt-get install -y unzip curl && \
+RUN apt-get install -y unzip curl && \
     curl -O https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip && \
     unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip && \
     mv terraform /usr/local/bin/ && \
