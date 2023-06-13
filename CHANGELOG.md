@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/lungmuss/feuerfest.deploy/compare/v1.0.3...v1.0.4) (2023-06-13)
+
+
+### Bug Fixes
+
+* install deps ([c966774](https://github.com/lungmuss/feuerfest.deploy/commit/c966774080957ee138eb0f78f50d555588ea8584))
+
 ## [1.0.3](https://github.com/lungmuss/feuerfest.deploy/compare/v1.0.2...v1.0.3) (2023-06-13)
 
 
