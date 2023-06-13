@@ -1,5 +1,7 @@
 ## Chemikalien-Gesellschaft Hans Lungmuß mbH & Co. KG
 
+[![Build Image and Release](https://github.com/lungmuss/feuerfest.deploy/actions/workflows/buildandpush.yaml/badge.svg)](https://github.com/lungmuss/feuerfest.deploy/actions/workflows/buildandpush.yaml)
+
 Feuerfest seit 1958.
 Ihr Spezialist für innovative feuerfeste Produkte.
 
