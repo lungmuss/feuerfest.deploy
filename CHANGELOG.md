@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/lungmuss/feuerfest.deploy/compare/v1.0.2...v1.0.3) (2023-06-13)
+
+
+### Bug Fixes
+
+* openssh-client ([38c02d0](https://github.com/lungmuss/feuerfest.deploy/commit/38c02d004a978cb34b1621f79ee71b122342e5a5))
+
 ## [1.0.2](https://github.com/lungmuss/feuerfest.deploy/compare/v1.0.1...v1.0.2) (2023-06-12)
 
 
