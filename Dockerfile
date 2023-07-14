@@ -22,7 +22,7 @@ ENV AGE_VERSION ${AGE_VERSION}
 
 # Install dependencies
 RUN apt-get update && \
-    apt-get install -y openssh-client procps git-core
+    apt-get install -y openssh-client procps git-core vim
 
 # Upgrade pip and install Ansible
 RUN pip3 install --upgrade pip && pip3 install ansible-core==${ANSIBLE_VERSION} 
