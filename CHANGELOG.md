@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/lungmuss/feuerfest.deploy/compare/v1.0.4...v1.0.5) (2023-07-14)
+
+
+### Bug Fixes
+
+* add vim ([d223e4d](https://github.com/lungmuss/feuerfest.deploy/commit/d223e4d90375723a43fbe914179dbbac2dbdb6bf))
+
 ## [1.0.4](https://github.com/lungmuss/feuerfest.deploy/compare/v1.0.3...v1.0.4) (2023-06-13)
 
 
